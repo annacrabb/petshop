@@ -13949,7 +13949,15 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
-body{
+
+/* Custom  */
+
+.customHeader {
+    font-family: "Yellowtail";
+    font-size: 4rem;
+}
+
+.customBody {
 
     background-color: #e5e5f7 !important;
     opacity: 0.3 !important;
