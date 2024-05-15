@@ -91,8 +91,9 @@
     --bs-secondary-bg-rgb: 233, 236, 239;
     --bs-tertiary-color: rgba(33, 37, 41, 0.5);
     --bs-tertiary-color-rgb: 33, 37, 41;
-    --bs-tertiary-bg: #f8f9fa;
-    --bs-tertiary-bg-rgb: 248, 249, 250;
+    --bs-tertiary-bg: #6dacc1;
+    /* this one? */
+    --bs-tertiary-bg-rgb: 109, 172, 193;
     --bs-link-color: #0d6efd;
     --bs-link-color-rgb: 13, 110, 253;
     --bs-link-decoration: underline;
