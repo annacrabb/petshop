@@ -17,7 +17,7 @@
 <body>
     <!-- Header Photo -->
     <div>
-        <img src="./assets/li-fei-l4QTY7XOIcg-unsplash.jpg" class="img-fluid" alt="reef">
+        <img src="./assets/acknowledgements.banner.jack.png" class="img-fluid" width="100%" alt="reef">
     </div>
 
     <!-- Navigation -->
@@ -66,15 +66,16 @@
     <!-- Content - Special Thanks -->
     <div class="container my-5 lead">We wish to extend our sincerest thanks to our esteemed Ocean Ambassadors. With their generous support, we are charting a course towards a healthier, more vibrant marine ecosystem. Their dedication to preserving our oceans not only sustains the life within but also inspires countless others to follow suit. Together, we are forging a powerful alliance, uniting passion with purpose to safeguard our precious marine environments for generations to come. Thank you, Ocean Ambassadors, for your invaluable contribution to the preservation of our planet's greatest treasure.</div>
     <ul class="list-unstyled">
-        <li class="text-center fw-bold">
-            <h4>Fish Jones</h4>
-        </li>
+        <div id="donorList"></div>
     </ul>
 
-    <div class="container my-5 small">We'd also like to thank award-winning underwater photographer Jack Israel for the use of his unmatched photography. Meet Jack by reading his interview with <a href="https://www.scubadiving.com/meet-underwater-photographer-jack-israel">scubadiving.com</a>, and visit his <a href="https://www.intothewater.net/">website</a> to see more of his work.</div>
-    <div class="container my-5 small">Tide Together: Sponsoring Marine Life is dedicated to the wonderful memory Jack's wife Diane. </div>
+    <div class="container my-5 display-4 text-center" style="font-family: Yellowtail">
+        <img src="./assets/TIDE TOGETHER.png" alt="tide together logo" width="400px">
+    </div>
+
+    <div class="container my-5">We'd also like to thank award-winning underwater photographer Jack Israel for the use of his unmatched photography. Meet Jack by reading his interview with <a href="https://www.scubadiving.com/meet-underwater-photographer-jack-israel">scubadiving.com</a>, and visit his <a href="https://www.intothewater.net/">website</a> to see more of his work.</div>
+    <div class="container my-5 ">Tide Together: Sponsoring Marine Life is dedicated to the wonderful memory Jack's wife Diane. </div>
     
-    <div class="container my-5 lead"></div>
     <!-- Footer -->
 
     <div class="container">
@@ -82,8 +83,7 @@
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
-                <li class="nav-item"><a href="conservation.html"
-                        class="nav-link px-2 text-body-secondary">Conservation</a></li>
+                <li class="nav-item"><a href="conservation.html" class="nav-link px-2 text-body-secondary">Conservation</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
                 <li class="nav-item"><a href="sponsor.html" class="nav-link px-2 text-body-secondary">Sponsor</a></li>
             </ul>
@@ -94,6 +94,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
+    <script src="donor.js"></script>
+
 </body>
 
 </html>
