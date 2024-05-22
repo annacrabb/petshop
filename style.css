@@ -13951,18 +13951,13 @@ fieldset:disabled .btn {
     }
 }
 
-/* Custom  */
 
-.customHeader {
-    font-family: "Yellowtail";
-    font-size: 4rem;
-}
+/* Make h5 headings smaller on screens 991 px and smaller */
 
-.customBody {
-
-    background-color: #e5e5f7 !important;
-    opacity: 0.3 !important;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 40px ), repeating-linear-gradient( #444cf755, #444cf7 ) !important;
+@media (max-width: 992px){
+    h5 {
+        font-size: 1em;
+    }
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
