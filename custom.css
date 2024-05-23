@@ -1,0 +1,51 @@
+/* Make h5 headings smaller on screens smaller than 992px */
+
+@media (max-width: 992px){
+h5 {
+    font-size: 1em;
+    }
+    .product img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px){
+    footer li{
+        font-size: .9em;
+    }
+}
+
+
+
+/* Make lead text a little smaller on smaller screens */
+
+
+
+/* Add custom font + size to headings */
+h1 {
+    font-family: "Yellowtail";
+    font-size: 4em;
+}
+
+button.btn{
+    background-color: #C16dac;
+    font-weight: bold
+}
+
+button.btn:hover{
+    background-color: #d8a4cb;
+}
+
+nav{
+    background-color: #6dacc1;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+/* shop animals */
+.product{
+    /* background-color: gray; */
+}
+

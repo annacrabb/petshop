@@ -13952,12 +13952,4 @@ fieldset:disabled .btn {
 }
 
 
-/* Make h5 headings smaller on screens 991 px and smaller */
-
-@media (max-width: 992px){
-    h5 {
-        font-size: 1em;
-    }
-}
-
 /*# sourceMappingURL=bootstrap.min.css.map */

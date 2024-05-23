@@ -40,16 +40,15 @@ var shopOne = [
       description: "Yellow seahorses, characterized by their intricate patterns and vibrant coloration, are often found camouflaged among the coral reefs of the Indo-Pacific region, including areas like Australia's Great Barrier Reef and the Philippines. These elusive creatures rely on their prehensile tails to anchor themselves to coral branches and seagrass beds, blending seamlessly into their surroundings while they patiently wait to ambush prey."
     },
     ]
-    
+
     var postHTML = " "
-  
-    for (var i=0; i < shopOne.length; i++){
-        var heading = '<div class="product ' + '"><span><h5>' + shopOne[i].title + '</h5>'
-        var image = '<img width=550px src="' + shopOne[i].image + '"/>'
-        var price = '<p> $' + shopOne[i].price + '</p></span>'
-        var description = '<div class=""><p>'+ shopOne[i].description + '</p><button type="button" class="btn btn-warning">Sponsor Me!</button></div></div><br>'
-        var concatThis = heading + image + price + description;
-        postHTML = postHTML + concatThis
+    for (var i = 0; i < shopOne.length; i++){
+      var heading = '<div class="row product"><div class="col-md pb-4"><h5>' + shopOne[i].title + '</h5>'
+      var image = '<img width="550px" src="' + shopOne[i].image + '"/></div>'
+      var description = '<div class="col-md d-flex align-items-center"><span><p>' + shopOne[i].description + '</p>'
+      var price = '<p><em class="text-muted"> $' + shopOne[i].price + '</em></p><button type="button" class="btn">Sponsor Me</button></span></div></div><br>'
+      var concatThis = heading + image + description + price;
+      postHTML = postHTML + concatThis
     }
     document.getElementById('marketOne').innerHTML = postHTML
 
@@ -112,15 +111,13 @@ var shopTwo = [
     
     var postHTML = " "
   
-  
-  
-    for (var i=0; i < shopTwo.length; i++){
-        var heading = '<div class="product ' + '"><span><h5>' + shopTwo[i].title + '</h5>'
-        var image = '<img width=550px src="' + shopTwo[i].image + '"/>'
-        var price = '<p> $' + shopTwo[i].price + '</p></span>'
-        var description = '<div class=""><p>'+ shopTwo[i].description + '</p><button type="button" class="btn btn-warning">Sponsor Me!</button></div></div><br>'
-        var concatThis = heading + image + price + description;
-        postHTML = postHTML + concatThis
+    for (var i = 0; i < shopTwo.length; i++){
+      var heading = '<div class="row product"><div class="col-md pb-4"><h5>' + shopTwo[i].title + '</h5>'
+      var image = '<img width="550px" src="' + shopTwo[i].image + '"/></div>'
+      var description = '<div class="col-md d-flex align-items-center"><span><p>' + shopTwo[i].description + '</p>'
+      var price = '<p><em class="text-muted"> $' + shopTwo[i].price + '</em></p><button type="button" class="btn">Sponsor Me</button></span></div></div><br>'
+      var concatThis = heading + image + description + price;
+      postHTML = postHTML + concatThis
     }
     document.getElementById('marketTwo').innerHTML = postHTML
 
@@ -167,12 +164,12 @@ var shopThree = [
   
   
   
-    for (var i=0; i < shopThree.length; i++){
-        var heading = '<div class="product ' + '"><span><h5>' + shopThree[i].title + '</h5>'
-        var image = '<img width=550px src="' + shopThree[i].image + '"/>'
-        var price = '<p> $' + shopThree[i].price + '</p></span>'
-        var description = '<div class=""><p>'+ shopThree[i].description + '</p><button type="button" class="btn btn-warning">Sponsor Me!</button></div></div><br>'
-        var concatThis = heading + image + price + description;
-        postHTML = postHTML + concatThis
+    for (var i = 0; i < shopThree.length; i++){
+      var heading = '<div class="row product"><div class="col-md pb-4"><h5>' + shopThree[i].title + '</h5>'
+      var image = '<img width="550px" src="' + shopThree[i].image + '"/></div>'
+      var description = '<div class="col-md d-flex align-items-center"><span><p>' + shopThree[i].description + '</p>'
+      var price = '<p><em class="text-muted"> $' + shopThree[i].price + '</em></p><button type="button" class="btn">Sponsor Me</button></span></div></div><br>'
+      var concatThis = heading + image + description + price;
+      postHTML = postHTML + concatThis
     }
     document.getElementById('marketThree').innerHTML = postHTML
