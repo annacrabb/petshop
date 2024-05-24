@@ -4,34 +4,39 @@ var shopOne = [
       title: 'Spanish Shawl Nudibranch',
       image: 'assets/spanish.shawl.jack.png',
       price: '10 per month',
-      description: 'Spanish shawl nudibranches, known for their vibrant orange and purple hues, inhabit the rocky shores of the eastern Pacific Ocean, from Alaska to Baja California. These small sea slugs can often be found amongst tide pools and kelp forests, where they feed on various species of sea anemones.'
+      description: 'Spanish shawl nudibranches, known for their vibrant orange and purple hues, inhabit the rocky shores of the eastern Pacific Ocean, from Alaska to Baja California. These small sea slugs can often be found amongst tide pools and kelp forests, where they feed on various species of sea anemones.',
+      name: 'Alejandro'
     },
 
     {
       title: 'Christmas Tree Worm',
       image: 'https://live.staticflickr.com/3676/11531111734_ca68c717bb_b.jpg',
       price: '10 per month',
-      description: "Christmas tree worms are brilliantly colored marine worms found in tropical coral reefs worldwide, including the Caribbean Sea, the Red Sea, and the Indo-Pacific region. They inhabit coral substrates, forming characteristic spiral-shaped tubes adorned with feathery, tree-like appendages that they extend to filter feed on plankton from the surrounding water. When you see them while snorkeling or scuba diving, carefully extend a hand toward them and watch them disappear into the coral!"
+      description: "Christmas tree worms are brilliantly colored marine worms found in tropical coral reefs worldwide, including the Caribbean Sea, the Red Sea, and the Indo-Pacific region. They inhabit coral substrates, forming characteristic spiral-shaped tubes adorned with feathery, tree-like appendages that they extend to filter feed on plankton from the surrounding water. When you see them while snorkeling or scuba diving, carefully extend a hand toward them and watch them disappear into the coral!",
+      name: 'Noel'
     },
 
     {
       title: 'Cleaner Shrimp',
       image: 'assets/cleaner.shrimp.curacao.jack.png',
       price: '10 per month',
-      description: "Cleaner shrimp are fascinating crustaceans inhabiting coral reefs across tropical oceans, particularly in the Caribbean Sea and the Indo-Pacific region. These shrimp species establish cleaning stations where they meticulously groom parasites and dead tissue off fish, forming symbiotic relationships crucial for the reef's health and balance."
+      description: "Cleaner shrimp are fascinating crustaceans inhabiting coral reefs across tropical oceans, particularly in the Caribbean Sea and the Indo-Pacific region. These shrimp species establish cleaning stations where they meticulously groom parasites and dead tissue off fish, forming symbiotic relationships crucial for the reef's health and balance.",
+      name: 'Cathilda'
     },
 
     {
       title: 'Harlequin Shrimp',
       image: 'assets/harlequin.shrimp.costa.rica.jack.png',
       price: '10 per month',
-      description: "Harlequin shrimp, known for their striking coloration and unique feeding habits, are found in coral reefs throughout the Indian and Pacific Oceans, particularly in areas like Indonesia and the Great Barrier Reef. These shrimp primarily feed on starfish, using their powerful claws to pry apart the starfish's arms and consume the soft tissue inside, making them important predators in reef ecosystems."
+      description: "Harlequin shrimp, known for their striking coloration and unique feeding habits, are found in coral reefs throughout the Indian and Pacific Oceans, particularly in areas like Indonesia and the Great Barrier Reef. These shrimp primarily feed on starfish, using their powerful claws to pry apart the starfish's arms and consume the soft tissue inside, making them important predators in reef ecosystems.",
+      name: 'Fabian'
     },
     {
       title: 'Hermit Crab',
       image: 'assets/hermit.crab.cozumel.jack.png',
       price: '10 per month',
-      description: "Hermit crabs are ubiquitous inhabitants of coral reefs worldwide, found in tropical oceans from the Caribbean Sea to the Indo-Pacific region. These resourceful crustaceans utilize discarded mollusk shells as portable homes, scavenging for food and shelter along the reef floor, contributing to the ecosystem's nutrient cycling and biodiversity."
+      description: "Hermit crabs are ubiquitous inhabitants of coral reefs worldwide, found in tropical oceans from the Caribbean Sea to the Indo-Pacific region. These resourceful crustaceans utilize discarded mollusk shells as portable homes, scavenging for food and shelter along the reef floor, contributing to the ecosystem's nutrient cycling and biodiversity.",
+      name: "Alex"
     },
     {
       title: 'Yellow Seahorse',

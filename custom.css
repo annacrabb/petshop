@@ -27,6 +27,11 @@ h1 {
     font-size: 4em;
 }
 
+h2{
+    font-family: "Yellowtail";
+    font-size: 2em;
+}
+
 button.btn{
     background-color: #C16dac;
     font-weight: bold
@@ -42,10 +47,5 @@ nav{
 
 nav li:hover {
     text-decoration: underline;
-}
-
-/* shop animals */
-.product{
-    /* background-color: gray; */
 }
 
