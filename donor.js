@@ -7,12 +7,11 @@ var donors = [
   'Samuel Eel Jackson',
   'Dwayne \'The Rock\' Lobster',
   'Paul McCarpney',
-  'Bing Crabby',
   'Austin Moray-les',
   'Fish Guttman',
   'Kate Giller',
   'David Buoy',
-  'Reefer Sutherland'
+  'Carrie Fisher'
 ]
 var sortedDonors = donors.sort();
 
