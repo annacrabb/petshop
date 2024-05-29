@@ -4,22 +4,20 @@
 h5 {
     font-size: 1em;
     }
-    .product img{
-        width: 400px;
-    }
+
 }
 
 @media (max-width: 768px){
     footer li{
         font-size: .9em;
     }
+    .product img{
+        width: 400px;
+    }
+    p{
+        font-size: .9em;
+    }
 }
-
-
-
-/* Make lead text a little smaller on smaller screens */
-
-
 
 /* Add custom font + size to headings */
 h1 {
@@ -34,11 +32,12 @@ h2{
 
 button.btn{
     background-color: #C16dac;
+    border-color: #c16dac;
     font-weight: bold
 }
 
 button.btn:hover{
-    background-color: #d8a4cb;
+    background-color: #c97fb6;
 }
 
 nav{
@@ -49,3 +48,9 @@ nav li:hover {
     text-decoration: underline;
 }
 
+.customBorder{
+    border: 2px solid #6dacc1; 
+    padding: 1.15em;
+    box-shadow: 5px 5px #446b79;
+    /* border-radius: 5px; */
+}
