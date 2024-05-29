@@ -49,8 +49,8 @@ nav li:hover {
 }
 
 .customBorder{
-    border: 2px solid #6dacc1; 
-    padding: 1.15em;
-    box-shadow: 5px 5px #446b79;
+    border: 2px solid gray; 
+    padding: 1em;
+    box-shadow: 5px 5px darkgray;
     /* border-radius: 5px; */
 }

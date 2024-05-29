@@ -114,9 +114,9 @@ var shopTwo = [
   
     for (var i = 0; i < shopTwo.length; i++){
       var concatName = shopTwo[i].name + " the " + shopTwo[i].title;
-      var heading = '<div class="row product"><div class="col-md pb-4"><h5>' + concatName + '</h5>'
-      var image = '<img height="300px" src="' + shopTwo[i].image + '"/></div>'
-      var description = '<div class="col-md d-flex align-items-center"><span height="300px" class="customBorder"><p>' + shopTwo[i].description + '</p>'
+      var heading = '<div class="row product"><div class="col-lg pb-4"><h5>' + concatName + '</h5>'
+      var image = '<img width="550px" src="' + shopTwo[i].image + '"/></div>'
+      var description = '<div class="col-lg d-flex align-items-center"><span><p class="customBorder">' + shopTwo[i].description + '</p>'
       var price = '<p><em class="text-muted"> $50 per month </em></p><button type="button" class="btn">Sponsor '+ shopTwo[i].name + '</button></span></div></div><br>'
       var concatThis = heading + image + description + price;
       postHTML = postHTML + concatThis
@@ -170,7 +170,7 @@ var shopThree = [
       var concatName = shopThree[i].name + " the " + shopThree[i].title;
       var heading = '<div class="row product"><div class="col-md pb-4"><h5>' + concatName + '</h5>'
       var image = '<img width="550px" src="' + shopThree[i].image + '"/></div>'
-      var description = '<div class="col-md d-flex align-items-center"><span><p>' + shopThree[i].description + '</p>'
+      var description = '<div class="col-md d-flex align-items-center"><span><p class="customBorder">' + shopThree[i].description + '</p>'
       var price = '<p><em class="text-muted"> $100 per month</em></p><button type="button" class="btn">Sponsor ' + shopThree[i].name + '</button></span></div></div><br>'
       var concatThis = heading + image + description + price;
       postHTML = postHTML + concatThis
