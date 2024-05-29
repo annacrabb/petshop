@@ -44,7 +44,7 @@ var shopOne = [
     var postHTML = " "
     for (var i = 0; i < shopOne.length; i++){
       var concatName = shopOne[i].name + " the " + shopOne[i].title ;
-      var heading = '<div class="row product"><div class="col-lg pb-4"><h5>' + concatName + '</h5>'
+      var heading = '<div class="row gx-5 product"><div class="col-lg pb-4"><h5>' + concatName + '</h5>'
       var image = '<img width="550px" src="' + shopOne[i].image + '"/></div>'
       var description = '<div class="col-md d-flex align-items-center"><span><p class="customBorder">' + shopOne[i].description + '</p>'
       var name = '<p><em class="text-muted">$10 per month</em></p><button type="button" class="btn">Sponsor ' + shopOne[i].name + '</button></span></div></div><br>'
