@@ -51,6 +51,6 @@ nav li:hover {
 .customBorder{
     border: 2px solid gray; 
     padding: 1em;
-    box-shadow: 5px 5px darkgray;
+    box-shadow: 5px 5px 5px darkgray;
     /* border-radius: 5px; */
 }
