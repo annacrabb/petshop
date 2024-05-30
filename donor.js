@@ -11,7 +11,8 @@ var donors = [
   'Fish Guttman',
   'Kate Giller',
   'David Buoy',
-  'Carrie Fisher'
+  'Carrie Fisher',
+  'John Crab'
 ]
 var sortedDonors = donors.sort();
 

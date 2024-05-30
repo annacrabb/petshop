@@ -10,7 +10,7 @@ var shopOne = [
     {
       title: 'Christmas Tree Worm',
       image: 'https://live.staticflickr.com/3676/11531111734_ca68c717bb_b.jpg',
-      description: "Christmas tree worms are brilliantly colored marine worms found in tropical coral reefs worldwide, including the Caribbean Sea, the Red Sea, and the Indo-Pacific region. They inhabit coral substrates, forming characteristic spiral-shaped tubes adorned with feathery, tree-like appendages that they extend to filter feed on plankton from the surrounding water. When you see them while snorkeling or scuba diving, carefully extend a hand toward them and watch them disappear into the coral!",
+      description: "Christmas tree worms are brilliantly colored marine worms found in tropical coral reefs worldwide, including the Caribbean Sea, the Red Sea, and the Indo-Pacific region. They inhabit coral substrates, forming spiral-shaped tubes adorned with feathery, tree-like appendages that they extend to filter feed on plankton.",
       name: 'Wally'
     },
 
@@ -46,7 +46,7 @@ var shopOne = [
       var concatName = shopOne[i].name + " the " + shopOne[i].title ;
       var heading = '<div class="row gx-5 product"><div class="col-lg pb-4"><h5>' + concatName + '</h5>'
       var image = '<img width="550px" src="' + shopOne[i].image + '"/></div>'
-      var description = '<div class="col-md d-flex align-items-center"><span><p class="customBorder">' + shopOne[i].description + '</p>'
+      var description = '<div class="col-md d-flex align-items-center"><br><span><p class="customBorder">' + shopOne[i].description + '</p>'
       var name = '<p><em class="text-muted">$10 per month</em></p><button type="button" class="btn">Sponsor ' + shopOne[i].name + '</button></span></div></div><br>'
       var concatThis = heading + image + description + name;
       postHTML = postHTML + concatThis
@@ -63,7 +63,7 @@ var shopTwo = [
     },
     {
       title: 'Starfish',
-      image: 'assets/seastar.florida.jack.png',
+      image: 'assets/starfish.png',
       description: "Starfish, also known as sea stars, are found in oceans around the world, from tropical coral reefs to polar regions. These iconic marine invertebrates play crucial roles in their ecosystems as predators and scavengers, using their tube feet to move along the seabed and their powerful arms to pry open shellfish for food.",
       name: 'Jace'
     },
@@ -90,14 +90,14 @@ var shopTwo = [
     {
       title: 'Queen Triggerfish',
       image: 'assets/queen.triggerfish.cozumel.jack.png',
-      description: "Queen triggerfish, renowned for their vibrant colors and intricate patterns, inhabit coral reefs throughout the tropical waters of the Atlantic Ocean, particularly in the Caribbean Sea and the Gulf of Mexico. These striking fish often seek shelter among coral formations and rocky crevices, where they feed on a varied diet consisting of crustaceans, mollusks, and other small invertebrates, playing a crucial role in reef ecosystems as both predators and prey.",
+      description: "Queen triggerfish, renowned for their vibrant colors and intricate patterns, inhabit coral reefs throughout the tropical waters of the Atlantic Ocean. These striking fish often seek shelter among coral formations and rocky crevices, where they feed on a varied diet consisting of crustaceans, mollusks, and other small invertebrates, playing a crucial role in reef ecosystems as both predators and prey.",
       name: 'Kristen'
     },
 
     {
       title: 'Sea Turtle',
-      image: 'assets/sea.turtle.florida.jack.png',
-      description: "Sea turtles are ancient reptiles that inhabit oceans around the world, favoring warm tropical and subtropical waters. They can be found nesting on sandy beaches and foraging in coastal areas, coral reefs, and open ocean habitats. From the green turtles grazing on seagrass beds to the loggerheads hunting for prey in the deep sea, sea turtles play vital roles in marine ecosystems as both predators and prey, while also serving as flagship species for ocean conservation.",
+      image: 'assets/sea turtle.png',
+      description: "Sea turtles are reptiles that inhabit oceans around the world, favoring warm tropical and subtropical waters. They can be found nesting on sandy beaches and foraging in coastal areas, coral reefs, and open ocean habitats. Sea turtles play vital roles in marine ecosystems as both predators and prey, while also serving as flagship species for ocean conservation.",
       name: "Shellford"
     },
     
@@ -125,12 +125,6 @@ var shopTwo = [
 
 
 var shopThree = [
-    {
-      title: 'Octopus',
-      image: 'https://i0.pickpik.com/photos/1011/749/144/fish-octopus-water-aquarium-thumb.jpg',
-      description: "Octopuses are highly intelligent cephalopods found in oceans globally, from shallow coastal waters to the deep sea. They inhabit various habitats, including coral reefs, kelp forests, and sandy bottoms, often seeking refuge in crevices and dens. Known for their remarkable camouflage abilities and dexterous tentacles, octopuses are skilled predators, feeding on crustaceans, mollusks, and fish.",
-      name: "James"
-    },
     
     {
       title: 'Sealion',
@@ -159,6 +153,12 @@ var shopThree = [
       description: "Spotted eagle rays are majestic, kite-shaped rays found in tropical and subtropical waters worldwide, particularly in the Atlantic, Indian, and Pacific Oceans. They inhabit a variety of coastal habitats, including coral reefs, sandy flats, and seagrass beds, where they glide gracefully in search of crustaceans, mollusks, and small fish. With their striking spotted patterns and elongated tails, spotted eagle rays are a sight to behold in the vibrant ecosystems they call home.",
       name: "Night Yorb"
     },
+    {
+      title: 'Octopus',
+      image: 'https://i0.pickpik.com/photos/1011/749/144/fish-octopus-water-aquarium-thumb.jpg',
+      description: "Octopuses are highly intelligent cephalopods found in oceans globally, from shallow coastal waters to the deep sea. They inhabit various habitats, including coral reefs, kelp forests, and sandy bottoms, often seeking refuge in crevices and dens. Known for their remarkable camouflage abilities and dexterous tentacles, octopuses are skilled predators, feeding on crustaceans, mollusks, and fish.",
+      name: "James"
+    }
 
     ]
     

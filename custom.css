@@ -1,7 +1,7 @@
 /* Make h5 headings smaller on screens smaller than 992px */
 
 @media (max-width: 992px){
-h5 {
+#carousel h5 {
     font-size: 1em;
     }
 
@@ -14,9 +14,13 @@ h5 {
     .product img{
         width: 400px;
     }
+    .product h5{
+        font-size: 1.15em;
+    }
     p{
         font-size: .9em;
     }
+    
 }
 
 /* Add custom font + size to headings */
@@ -52,5 +56,4 @@ nav li:hover {
     border: 2px solid gray; 
     padding: 1em;
     box-shadow: 5px 5px 5px darkgray;
-    /* border-radius: 5px; */
 }
