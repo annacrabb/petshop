@@ -57,3 +57,9 @@ nav li:hover {
     padding: 1em;
     box-shadow: 5px 5px 5px darkgray;
 }
+
+i{
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 1.5em;
+    }
